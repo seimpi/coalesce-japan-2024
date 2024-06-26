@@ -43,7 +43,7 @@ const Timeline = ({ setObserver, callback }) => {
     const circle6 = useRef(null);
 
     const { RiveComponent: MapRivPlay } = useRive({
-        src: "/riv/map.riv",
+        src: "map.riv",
         stateMachines: "stateMachine",
         artboard: "artboard",
         autoplay: true,

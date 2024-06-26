@@ -13,6 +13,7 @@ import {
     useStateMachineInput,
 } from "@rive-app/react-canvas";
 
+import Tilt from 'react-parallax-tilt';
 
 const Timeline = ({ setObserver, callback }) => {
     const [seenMessage1, setSeenMessage1] = useState("text-slate-300");
@@ -34,13 +35,21 @@ const Timeline = ({ setObserver, callback }) => {
     const timeline4 = useRef(null);
     const timeline5 = useRef(null);
     const timeline6 = useRef(null);
-
     const circle1 = useRef(null);
     const circle2 = useRef(null);
     const circle3 = useRef(null);
     const circle4 = useRef(null);
     const circle5 = useRef(null);
     const circle6 = useRef(null);
+
+    const { RiveComponent: MapRivPlay } = useRive({
+        src: "/riv/map.riv",
+        stateMachines: "stateMachine",
+        artboard: "artboard",
+        autoplay: true,
+    });
+
+
 
     const callback1 = () => {
         setSeenMessage1("text-theme02")
@@ -87,8 +96,25 @@ const Timeline = ({ setObserver, callback }) => {
         setObserver(circle6.current, callback6);
     }, []);
 
+
+
+
     return (
         <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center">
+                <Tilt>
+                    <div className="border border-theme02 mx-8 mb-8">
+                        <div className="m-4 p-8 bg-theme02 inverted-corners">
+                            <div className="flex flex-col text-center font-palanquindark text-theme07 text-lg">
+                                15th to 20th November 2024
+                            </div>
+                        </div>
+                    </div>
+                </Tilt>
+                <div className={"items-center h-[500px] w-[544.89px] "}>
+                    <MapRivPlay />
+                </div>
+            </div>
             <div id="timeline1" ref={timeline1} className="timeline-bar" />
             <div className="relative flex flex-col">
                 <div id="circle1" ref={circle1} className={"timeline-node self-center " + seenMessage1}>
@@ -193,26 +219,13 @@ const Timeline = ({ setObserver, callback }) => {
 };
 
 export const ItineraryComponent = () => {
-
-    const { rive, RiveComponent: RCom } = useRive({
-        src: "map.riv",
-        stateMachines: "stateMachine",
-        artboard: "artboard",
-        autoplay: true,
-    });
-
     return (
         <section id="itinerary" className="w-full bg-theme01">
-            <TrackVisibility partialVisibility>
+            <TrackVisibility>
                 {({ isVisible }) =>
-                    <div className={"py-8 mx-6 lg:mx-[10rem] border-2 border-x-theme02 border-y-transparent flex flex-col transition-all duration-1000 " + (isVisible ? "opacity-100" : "opacity-0")}>
+                    <div className={"py-8 mx-6 lg:mx-[10rem] border-2 border-x-theme02 border-y-transparent flex flex-col transition-all duration-1000 "}>
                         <div className="text-center py-14">
                             <h1 className="font-palanquindark font-medium text-6xl text-theme02">Tour Itinerary</h1>
-                        </div>
-                        <div className="flex flex-row items-center">
-                            <div className="h-[500px] w-full">
-                                <RCom />
-                            </div>
                         </div>
                         <div className="mb-12">
                             <TimelineObserver

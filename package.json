@@ -1,7 +1,7 @@
 {
   "name": "seimpi-coalesce-japan-2024",
   "version": "0.1.0",
-  "homepage": "https://seimpi.github.io/coalesce-japan-2024/",
+  
   "private": true,
   "dependencies": {
     "@rive-app/react-canvas": "^4.6.2",

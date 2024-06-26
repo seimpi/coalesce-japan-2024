@@ -23,4 +23,14 @@
             }
 };
 
+@layer components {
+    .timeline-node {
+      @apply inline-flex items-center justify-center font-palanquindark rounded-sm p-4;
+    }
+
+    .timeline-bar {
+        @apply h-[300px] w-[5px] bg-white
+    }
+  }
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Palanquin+Dark:wght@400;500;600;700&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');

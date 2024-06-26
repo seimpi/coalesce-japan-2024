@@ -8,7 +8,10 @@ import highlight_08_pic from "../assets/highlight_card_08_img.png";
 import highlight_09_pic from "../assets/highlight_card_09_img.png";
 import highlight_10_pic from "../assets/highlight_card_10_img.png";
 
-import Rive from '@rive-app/react-canvas';
+import {
+    useRive,
+    useStateMachineInput,
+} from "@rive-app/react-canvas";
 
 
 const Timeline = ({ setObserver, callback }) => {
@@ -190,6 +193,14 @@ const Timeline = ({ setObserver, callback }) => {
 };
 
 export const ItineraryComponent = () => {
+
+    const { rive, RiveComponent: RCom } = useRive({
+        src: "map.riv",
+        stateMachines: "stateMachine",
+        artboard: "artboard",
+        autoplay: true,
+    });
+
     return (
         <section id="itinerary" className="w-full bg-theme01">
             <TrackVisibility partialVisibility>
@@ -199,10 +210,8 @@ export const ItineraryComponent = () => {
                             <h1 className="font-palanquindark font-medium text-6xl text-theme02">Tour Itinerary</h1>
                         </div>
                         <div className="flex flex-row items-center">
-                            <div className="h-[100px] w-full">
-                                <Rive
-                                    src="header-riv.riv"
-                                />
+                            <div className="h-[500px] w-full">
+                                <RCom />
                             </div>
                         </div>
                         <div className="mb-12">

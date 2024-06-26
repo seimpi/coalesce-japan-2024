@@ -1,4 +1,5 @@
 import './App.css';
+import Rive from '@rive-app/react-canvas';
 import { HeaderComponent } from './components/HeaderComponent';
 import { IntroComponent } from './components/IntroComponent';
 import { HighlightsComponent } from './components/HighlightsComponent';
@@ -8,6 +9,7 @@ import { ProgressBarComponent } from './components/ProgressBarComponent';
 
 function App() {
   return (
+
     <div className="App">
       <ProgressBarComponent />
       <HeaderComponent />

@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b34eb3d.css",
-    "main.js": "/static/js/main.3b1b6aa5.js",
-    "static/js/453.65244dc0.chunk.js": "/static/js/453.65244dc0.chunk.js",
-    "static/media/highlight_card_10_img.png": "/static/media/highlight_card_10_img.ce11d51ce6217be110e7.png",
-    "static/media/highlight_card_04_img.png": "/static/media/highlight_card_04_img.85e9629e42f26f23c290.png",
-    "static/media/highlight_card_05_img.png": "/static/media/highlight_card_05_img.67b65588b300215b6a24.png",
-    "static/media/highlight_card_03_img.png": "/static/media/highlight_card_03_img.208a59adf21d8e480a82.png",
-    "static/media/highlight_card_06_img.png": "/static/media/highlight_card_06_img.2ed6229360b1d8dc639a.png",
-    "static/media/highlight_card_09_img.png": "/static/media/highlight_card_09_img.746218a8a3fdb4e029ff.png",
-    "static/media/highlight_card_01_img.png": "/static/media/highlight_card_01_img.63711d1cd213fb5ddfbf.png",
-    "static/media/highlight_card_02_img.png": "/static/media/highlight_card_02_img.565cb5600f4728ad41b2.png",
-    "static/media/highlight_card_08_img.png": "/static/media/highlight_card_08_img.3673d282830452b4f9b8.png",
-    "static/media/highlight_card_07_img.png": "/static/media/highlight_card_07_img.b2cd49ae1441031b851e.png",
-    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/index.html",
-    "main.6b34eb3d.css.map": "/static/css/main.6b34eb3d.css.map",
-    "main.3b1b6aa5.js.map": "/static/js/main.3b1b6aa5.js.map",
-    "453.65244dc0.chunk.js.map": "/static/js/453.65244dc0.chunk.js.map"
+    "main.css": "/coalesce-japan-2024/static/css/main.e5227939.css",
+    "main.js": "/coalesce-japan-2024/static/js/main.fb0f0e14.js",
+    "static/js/453.65244dc0.chunk.js": "/coalesce-japan-2024/static/js/453.65244dc0.chunk.js",
+    "static/media/highlight_card_10_img.png": "/coalesce-japan-2024/static/media/highlight_card_10_img.ce11d51ce6217be110e7.png",
+    "static/media/highlight_card_04_img.png": "/coalesce-japan-2024/static/media/highlight_card_04_img.85e9629e42f26f23c290.png",
+    "static/media/highlight_card_05_img.png": "/coalesce-japan-2024/static/media/highlight_card_05_img.67b65588b300215b6a24.png",
+    "static/media/highlight_card_03_img.png": "/coalesce-japan-2024/static/media/highlight_card_03_img.208a59adf21d8e480a82.png",
+    "static/media/highlight_card_06_img.png": "/coalesce-japan-2024/static/media/highlight_card_06_img.2ed6229360b1d8dc639a.png",
+    "static/media/highlight_card_09_img.png": "/coalesce-japan-2024/static/media/highlight_card_09_img.746218a8a3fdb4e029ff.png",
+    "static/media/highlight_card_01_img.png": "/coalesce-japan-2024/static/media/highlight_card_01_img.63711d1cd213fb5ddfbf.png",
+    "static/media/highlight_card_02_img.png": "/coalesce-japan-2024/static/media/highlight_card_02_img.565cb5600f4728ad41b2.png",
+    "static/media/highlight_card_08_img.png": "/coalesce-japan-2024/static/media/highlight_card_08_img.3673d282830452b4f9b8.png",
+    "static/media/highlight_card_07_img.png": "/coalesce-japan-2024/static/media/highlight_card_07_img.b2cd49ae1441031b851e.png",
+    "static/media/revicons.eot": "/coalesce-japan-2024/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/coalesce-japan-2024/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/coalesce-japan-2024/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/coalesce-japan-2024/index.html",
+    "main.e5227939.css.map": "/coalesce-japan-2024/static/css/main.e5227939.css.map",
+    "main.fb0f0e14.js.map": "/coalesce-japan-2024/static/js/main.fb0f0e14.js.map",
+    "453.65244dc0.chunk.js.map": "/coalesce-japan-2024/static/js/453.65244dc0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b34eb3d.css",
-    "static/js/main.3b1b6aa5.js"
+    "static/css/main.e5227939.css",
+    "static/js/main.fb0f0e14.js"
   ]
 }

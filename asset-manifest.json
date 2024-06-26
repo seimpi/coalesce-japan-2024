@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coalesce-japan-2024/static/css/main.88b227bd.css",
-    "main.js": "/coalesce-japan-2024/static/js/main.b5867ea5.js",
+    "main.js": "/coalesce-japan-2024/static/js/main.96624ff8.js",
     "static/js/453.65244dc0.chunk.js": "/coalesce-japan-2024/static/js/453.65244dc0.chunk.js",
     "static/media/highlight_card_10_img.png": "/coalesce-japan-2024/static/media/highlight_card_10_img.ce11d51ce6217be110e7.png",
     "static/media/highlight_card_04_img.png": "/coalesce-japan-2024/static/media/highlight_card_04_img.85e9629e42f26f23c290.png",
@@ -18,11 +18,11 @@
     "static/media/revicons.woff": "/coalesce-japan-2024/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/coalesce-japan-2024/index.html",
     "main.88b227bd.css.map": "/coalesce-japan-2024/static/css/main.88b227bd.css.map",
-    "main.b5867ea5.js.map": "/coalesce-japan-2024/static/js/main.b5867ea5.js.map",
+    "main.96624ff8.js.map": "/coalesce-japan-2024/static/js/main.96624ff8.js.map",
     "453.65244dc0.chunk.js.map": "/coalesce-japan-2024/static/js/453.65244dc0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88b227bd.css",
-    "static/js/main.b5867ea5.js"
+    "static/js/main.96624ff8.js"
   ]
 }

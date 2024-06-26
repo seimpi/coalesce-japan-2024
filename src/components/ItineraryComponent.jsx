@@ -201,8 +201,7 @@ export const ItineraryComponent = () => {
                         <div className="flex flex-row items-center">
                             <div className="h-[100px] w-full">
                                 <Rive
-                                src="https://cdn.rive.app/animations/vehicles.riv"
-                                stateMachines="bumpy"
+                                    src="header-riv.riv"
                                 />
                             </div>
                         </div>

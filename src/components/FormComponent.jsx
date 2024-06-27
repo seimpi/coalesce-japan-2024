@@ -91,7 +91,7 @@ export const FormComponent = ({ innerRef }) => {
                             <div ref={ref} className={"transition-all duration-1000 w-full h-screen overflow-hidden relative grid place-items-center"}>
                                 <div className="flex flex-col">
                                     <motion.h1
-                                        className="font-protestrevolution text-9xl text-white text-center z-[20] drop-shadow-xl"
+                                        className="font-protestrevolution text-6xl md:text-9xl text-white text-center z-[20] drop-shadow-xl"
                                         style={{ y: textY }}
                                         initial="hidden"
                                         whileInView="reveal"
@@ -101,7 +101,7 @@ export const FormComponent = ({ innerRef }) => {
                                             <motion.span key={char} transition={{ duration: 0.5 }} variants={charVariants}>{char}</motion.span>
                                         ))}
                                         <motion.p
-                                            className="text-2xl text-white text-center z-[30] mx-32 whitespace-pre-line drop-shadow-xl"
+                                            className="text-2xl text-white text-center z-[30] mx-8 md:mx-32 whitespace-pre-line drop-shadow-xl"
                                             style={{ y: subtextY }}
                                             initial="hidden"
                                             whileInView="reveal"
@@ -130,13 +130,14 @@ export const FormComponent = ({ innerRef }) => {
                                         backgroundImage: `url("/coalesce-japan-2024/header-bg-city.png")`,
                                         backgroundPosition: "bottom",
                                         backgroundSize: "cover",
-                                        y: cityY
+                                        y: cityY,
+                                        opacity: 0.5
                                     }}
                                 />
 
 
                             </div>
-                            <div className="border border-theme01 my-4 mx-16">
+                            <div className="border border-theme01 my-4 mx-0 md:mx-16">
                                 <div className="m-4 p-8 bg-theme01 inverted-corners text-theme05 flex items-center">
                                     <div className="flex flex-col w-full items-center">
                                         For more details, and to sign up, contact us at:

@@ -20,14 +20,13 @@ function App() {
   });
 
   const buttonY = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
-  const buttonOpacity = useTransform(scrollYProgress, [0, 1], ["100%", "0%"]);
 
 
   return (
     <div className="App">
       <ProgressBarComponent />
       <div ref={ref} className="w-full h-screen absolute inset-0 flex justify-center items-end">
-        <motion.button className="z-30" style={{ y: buttonY, opacity: buttonOpacity }} onClick={() => formRef.current?.scrollIntoView({
+        <motion.button className="z-30 mb-4" style={{ y: buttonY }} onClick={() => formRef.current?.scrollIntoView({
           behavior: "smooth"
         })} whileHover={{ scale: 1.3 }}>
           <div className="border border-theme02 m-4">

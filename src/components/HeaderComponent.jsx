@@ -35,7 +35,7 @@ export const HeaderComponent = () => {
                 <div ref={ref} className={"transition-all duration-1000 w-full h-screen overflow-hidden relative grid place-items-center"}>
                     <div className="flex flex-col">
                         <motion.h1
-                            className="font-protestrevolution text-9xl text-white text-center z-[-15]"
+                            className="font-protestrevolution text-6xl md:text-9xl text-white text-center z-[-15]"
                             style={{ y: textY }}
                             initial="hidden"
                             whileInView="reveal"

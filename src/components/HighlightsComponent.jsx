@@ -42,23 +42,19 @@ export const HighlightsComponent = () => {
                             <HighlightsCardComponent text={"Learn traditional Japanese instruments"} image={highlight_06_pic}/>
                         </div>
                     </div>
-                    <div className="flex lg:hidden flex-row justify-center">
+                    <div className="flex lg:hidden flex-col justify-center items-center">
                         <div>
                             <HighlightsCardComponent text={"Masterclass with University Professor"} image={highlight_01_pic}/>
                         </div>
                         <div>
                             <HighlightsCardComponent text={"Attend Concerts performed in Japan"} image={highlight_02_pic}/>
                         </div>
-                    </div>
-                    <div className="flex lg:hidden flex-row justify-center">
                         <div>
                             <HighlightsCardComponent text={"Immersion with local Japanese students"} image={highlight_03_pic}/>
                         </div>
                         <div>
                             <HighlightsCardComponent text={"Visit museums and go on local educational tours"} image={highlight_04_pic}/>
                         </div>
-                    </div>
-                    <div className="flex lg:hidden flex-row justify-center">
                         <div>
                             <HighlightsCardComponent text={"Aural & Percussion Workshops by local teachers"} image={highlight_05_pic}/>
                         </div>

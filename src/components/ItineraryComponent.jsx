@@ -124,7 +124,7 @@ const Timeline = ({ setObserver, callback }) => {
                     15/11 - Welcome to Tokyo!
                 </div>
                 <div className={"whitespace-pre-line text-center bg-theme04 border border-theme02 transition-all duration-1000 " + (message1Width)}>
-                    <div className="flex flex-row">
+                    <div className="flex flex-col md:flex-row">
                         <img src={highlight_07_pic} alt="highlight_card_image" className="ms-4 h-auto w-auto max-h-[150px] max-w-[150px] my-8 border-4 border-theme02 rounded-[50%]" />
                         <div className="m-4 p-8 bg-theme02 inverted-corners font-palanquin font-normal text-lg text-theme07 text-start">
                             <span className="font-palanquin"><b className="font-palaquindark">Arrival in Tokyo:</b> Begin your journey with a warm welcome in Japan's vibrant capital.</span><br />
@@ -140,7 +140,7 @@ const Timeline = ({ setObserver, callback }) => {
                     16/11 - Mastering the Beat
                 </div>
                 <div className={"whitespace-pre-line text-center bg-theme04 border border-theme02 transition-all duration-1000 " + (message2Width)}>
-                    <div className="flex flex-row">
+                    <div className="flex flex-col md:flex-row">
                         <img src={highlight_01_pic} alt="highlight_card_image" className="ms-4 h-auto w-auto max-h-[150px] max-w-[150px] my-8 border-4 border-theme02 rounded-[50%]" />
                         <div className="m-4 p-8 bg-theme02 inverted-corners font-palanquin font-normal text-lg text-theme07 text-start">
                             <span className="font-palanquin"><b className="font-palaquindark">Attending a masterclass:</b> Learn from Professor Tomonori Kousaka 髙坂朋聖 at Musashino Academia Musicae and witness world-class musical expertise up close. Explore the institution's fascinating museum.</span><br />
@@ -157,7 +157,7 @@ const Timeline = ({ setObserver, callback }) => {
                     17/11 - Joint Concert Extravaganza in Yokohama
                 </div>
                 <div className={"whitespace-pre-line text-center bg-theme04 border border-theme02 transition-all duration-1000 " + (message3Width)}>
-                    <div className="flex flex-row">
+                    <div className="flex flex-col md:flex-row">
                         <img src={highlight_08_pic} alt="highlight_card_image" className="ms-4 h-auto w-auto max-h-[150px] max-w-[150px] my-8 border-4 border-theme02 rounded-[50%]" />
                         <div className="m-4 p-8 bg-theme02 inverted-corners font-palanquin font-normal text-lg text-theme07 text-start">
                             <span className="font-palanquin"><b className="font-palaquindark">Yokohama Museum of Art:</b> Begin your day with an inspiring visit to the Yokohama Museum of Art. Immerse yourself in captivating art exhibitions and see how music and visual art beautifully intertwine, sparking creativity and broadening your horizons.</span><br />
@@ -173,7 +173,7 @@ const Timeline = ({ setObserver, callback }) => {
                     18/11 - Workshops and Cultural Exchange
                 </div>
                 <div className={"whitespace-pre-line text-center bg-theme04 border border-theme02 transition-all duration-1000 " + (message4Width)}>
-                    <div className="flex flex-row">
+                    <div className="flex flex-col md:flex-row">
                         <img src={highlight_09_pic} alt="highlight_card_image" className="ms-4 h-auto w-auto max-h-[150px] max-w-[150px] my-8 border-4 border-theme02 rounded-[50%]" />
                         <div className="m-4 p-8 bg-theme02 inverted-corners font-palanquin font-normal text-lg text-theme07 text-start">
                             <span className="font-palanquin"><b className="font-palaquindark">Choir and Percussion Workshop at Yokohama Mint Hall:</b> Engage in hands-on workshops designed to enrich your musical skills and creativity. The coaches for these two workshops are veteran musicians in the music scene in Japan!</span><br />
@@ -190,7 +190,7 @@ const Timeline = ({ setObserver, callback }) => {
                     19/11 - Musical Extravaganza in Tokyo
                 </div>
                 <div className={"whitespace-pre-line text-center bg-theme04 border border-theme02 transition-all duration-1000 " + (message5Width)}>
-                    <div className="flex flex-row">
+                    <div className="flex flex-col md:flex-row">
                         <img src={highlight_10_pic} alt="highlight_card_image" className="ms-4 h-auto w-auto max-h-[150px] max-w-[150px] my-8 border-4 border-theme02 rounded-[50%]" />
                         <div className="m-4 p-8 bg-theme02 inverted-corners font-palanquin font-normal text-lg text-theme07 text-start">
                             <span className="font-palanquin"><b className="font-palaquindark">Tokyo School Exchange Program:</b> Experience first-hand the blend of traditional and contemporary Japanese music education. Additionally, you may have the opportunity to witness a thrilling music competition showcasing the talent of young musicians. Connect with students at a prestigious Tokyo school.</span><br />
@@ -209,7 +209,7 @@ const Timeline = ({ setObserver, callback }) => {
                     20/11 - Return to Singapore
                 </div>
                 <div className={"whitespace-pre-line text-center bg-theme04 border border-theme02 transition-all duration-1000 " + (message6Width)}>
-                    <div className="flex flex-row">
+                    <div className="flex flex-col md:flex-row">
                         <img src={highlight_01_pic} alt="highlight_card_image" className="ms-4 h-auto w-auto max-h-[150px] max-w-[150px] my-8 border-4 border-theme02 rounded-[50%]" />
                         <div className="m-4 p-8 bg-theme02 inverted-corners font-palanquin font-normal text-lg text-theme07 text-start content-center">
                             <span className="font-palanquin"><b className="font-palaquindark">Flight home:</b> Bring back enriching and unforgettable memories from this invaluable musical experience in Japan.</span>
@@ -242,7 +242,7 @@ export const ItineraryComponent = () => {
                                 )}
                             />
                         </div>
-                        <div className="flex flex-row justify-center">
+                        <div className="flex flex-col md:flex-row justify-center">
                             <Tilt>
                                 <a href={itineraryLink}>
                                     <div className="border border-theme02 mx-8 mb-8">

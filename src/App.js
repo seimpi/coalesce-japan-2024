@@ -6,12 +6,20 @@ import { HighlightsComponent } from './components/HighlightsComponent';
 import { ItineraryComponent } from './components/ItineraryComponent';
 import { FormComponent } from './components/FormComponent';
 import { ProgressBarComponent } from './components/ProgressBarComponent';
-import { useRef } from "react";
-
+import { useState, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 function App() {
   const formRef = useRef(null);
+  const { t, i18n: {changeLanguage, language} } = useTranslation();
+  const [currentLanguage, setCurrentLanguage] = useState(language)
+
+  const handleChangeLanguage = () => {
+    const newLanguage = currentLanguage === "en" ? "zh" : "en";
+    setCurrentLanguage(newLanguage);
+    changeLanguage(newLanguage);
+  }
 
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -20,6 +28,7 @@ function App() {
   });
 
   const buttonY = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
+
 
 
   return (
@@ -32,7 +41,7 @@ function App() {
           <div className="border border-theme02 m-4">
             <div className="m-2 p-4 bg-theme02 inverted-corners">
               <div className="flex flex-col text-center font-protestrevolution px-16">
-                Sign Up Now!
+                {t('signUp')}
               </div>
             </div>
           </div>

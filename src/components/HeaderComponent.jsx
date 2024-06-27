@@ -2,10 +2,11 @@ import { motion, useScroll, useTransform, Variants } from "framer-motion";
 import { useRef } from "react";
 import splitStringUsingRegex from "../utils/splitStringUsingRegex";
 
-const heading = "Coalesce"
-const subheading = "2024 Japan Musical Immersion Experience"
+
 
 export const HeaderComponent = () => {
+    const heading = "Coalesce"
+    const subheading = "2024 Japan Musical Immersion Experience"
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({
         target: ref,

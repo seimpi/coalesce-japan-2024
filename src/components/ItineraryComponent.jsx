@@ -9,14 +9,12 @@ import highlight_09_pic from "../assets/highlight_card_09_img.png";
 import highlight_10_pic from "../assets/highlight_card_10_img.png";
 
 import {
-    useRive,
-    useStateMachineInput,
+    useRive
 } from "@rive-app/react-canvas";
 
 import Tilt from 'react-parallax-tilt';
 
-const itineraryLink = "https://www.seimpi.edu.sg/_files/ugd/3bd640_4c4d67a3407a46ea92594282a4000660.pdf";
-const pricingLink = "https://www.seimpi.edu.sg/_files/ugd/3bd640_54c9fe5c37094896894c926d1fb5714d.pdf";
+
 
 const Timeline = ({ setObserver, callback }) => {
     const [seenMessage1, setSeenMessage1] = useState("text-slate-300");
@@ -245,7 +243,7 @@ export const ItineraryComponent = () => {
                         </div>
                         <div className="flex flex-col md:flex-row justify-center">
                             <Tilt>
-                                <a href={itineraryLink}>
+                                <a href={t("itineraryLink")}>
                                     <div className="border border-theme02 mx-8 mb-8">
                                         <div className="m-4 p-8 bg-theme02 inverted-corners">
                                             <div className="flex flex-col text-center font-palanquindark text-theme07 text-lg">
@@ -257,7 +255,7 @@ export const ItineraryComponent = () => {
 
                             </Tilt>
                             <Tilt>
-                                <a href={pricingLink}>
+                                <a href={t("pricingLink")}>
                                     <div className="border border-theme02 mx-8 mb-8" >
                                         <div className="m-4 p-8 bg-theme02 inverted-corners">
                                             <div className="flex flex-col text-center font-palanquindark text-theme07 text-lg">

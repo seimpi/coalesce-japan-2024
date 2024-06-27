@@ -14,9 +14,6 @@ import { FaWhatsapp } from "react-icons/fa";
 
 import logos from "../assets/Logo.png";
 
-const heading = "JOIN THE JOURNEY"
-const subheading = "Secure your spot on this unique educational tour! Spaces are limited, \nand we expect high demand for this extraordinary opportunity."
-
 export const FormComponent = ({ innerRef }) => {
     const ref = useRef(null);
     const { t } = useTranslation();
@@ -30,8 +27,8 @@ export const FormComponent = ({ innerRef }) => {
     const textY = useTransform(scrollYProgress, [0, 1], ["0%", "150%"])
     const subtextY = useTransform(scrollYProgress, [0, 1], ["0%", "150%"])
 
-    const headingSplitWithRegex = splitStringUsingRegex(heading);
-    const subheadingSplitWithRegex = splitStringUsingRegex(subheading);
+    const headingSplitWithRegex = splitStringUsingRegex(t("FormBannerHeading"));
+    const subheadingSplitWithRegex = splitStringUsingRegex(t("FormBannerSubheading"));
 
     const charVariants = {
         hidden: {
@@ -54,7 +51,7 @@ export const FormComponent = ({ innerRef }) => {
                                 <div className="flex flex-row justify-center">
                                     <div className="flex flex-col items-center">
                                         <Tilt>
-                                            <div className="border border-theme01 m-4 w-full">
+                                            <div className="border border-theme01 m-4 w-fit">
                                                 <div className="m-4 p-8 bg-theme01 inverted-corners text-theme05 flex items-center">
                                                     <span><FaUniversalAccess className="inline-flex self-center me-2 mb-1" /><b className="font-palanquindark">{t("FormNode01Bold")}</b>{t("FormNode01Text")}</span>
                                                 </div>

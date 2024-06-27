@@ -1,13 +1,12 @@
 import { motion, useScroll, useTransform, Variants } from "framer-motion";
 import { useRef } from "react";
 import splitStringUsingRegex from "../utils/splitStringUsingRegex";
-
+import { useTranslation } from "react-i18next";
 
 
 export const HeaderComponent = () => {
-    const heading = "Coalesce"
-    const subheading = "2024 Japan Musical Immersion Experience"
     const ref = useRef(null);
+    const { t } = useTranslation();
     const { scrollYProgress } = useScroll({
         target: ref,
         offset: ["start start", "end start"]
@@ -17,8 +16,8 @@ export const HeaderComponent = () => {
     const textY = useTransform(scrollYProgress, [0, 1], ["0%", "150%"])
     const subtextY = useTransform(scrollYProgress, [0, 1], ["0%", "150%"])
 
-    const headingSplitWithRegex = splitStringUsingRegex(heading);
-    const subheadingSplitWithRegex = splitStringUsingRegex(subheading);
+    const headingSplitWithRegex = splitStringUsingRegex(t("BannerHeading"));
+    const subheadingSplitWithRegex = splitStringUsingRegex(t("BannerSubheading"));
 
 
     const charVariants = {

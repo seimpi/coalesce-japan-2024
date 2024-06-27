@@ -14,11 +14,13 @@ function App() {
   const formRef = useRef(null);
   const { t, i18n: {changeLanguage, language} } = useTranslation();
   const [currentLanguage, setCurrentLanguage] = useState(language)
+  const [rerender, setrerender] = useState(0)
 
   const handleChangeLanguage = () => {
     const newLanguage = currentLanguage === "en" ? "zh" : "en";
     setCurrentLanguage(newLanguage);
     changeLanguage(newLanguage);
+    setrerender(Math.random());
   }
 
   const ref = useRef(null);
@@ -46,13 +48,22 @@ function App() {
             </div>
           </div>
         </motion.button>
+        <motion.button className="z-30 mb-4" style={{ y: buttonY }} onClick={handleChangeLanguage} whileHover={{ scale: 1.3 }}>
+          <div className="border border-theme02 m-4">
+            <div className="m-2 p-4 bg-theme02 inverted-corners">
+              <div className="flex flex-col text-center font-protestrevolution px-16">
+                {t('switchLang')}
+              </div>
+            </div>
+          </div>
+        </motion.button>
       </div>
       <OverlayComponent />
-      <HeaderComponent />
+      <HeaderComponent key={currentLanguage}/>
       <IntroComponent />
       <HighlightsComponent />
       <ItineraryComponent />
-      <FormComponent innerRef={formRef} />
+      <FormComponent key={rerender} innerRef={formRef} />
     </div>
   );
 }

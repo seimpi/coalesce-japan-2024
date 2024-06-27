@@ -64,7 +64,7 @@ export const HeaderComponent = () => {
                     <motion.div
                         className="absolute inset-0 z-[-20]"
                         style={{
-                            backgroundImage: `/header-bg-sky.png`,
+                            backgroundImage: "url(../assets/header-bg-sky.png)",
                             backgroundPosition: "top",
                             backgroundSize: "cover",
                             y: backgroundY
@@ -73,7 +73,7 @@ export const HeaderComponent = () => {
                     <div
                         className="absolute inset-x-0 top-0 -bottom-36 z-[-10]"
                         style={{
-                            backgroundImage: `/header-bg-mountains.png`,
+                            backgroundImage: "url(../assets/header-bg-mountains.png)",
                             backgroundPosition: "bottom",
                             backgroundSize: "cover"
                         }}

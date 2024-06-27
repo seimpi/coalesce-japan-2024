@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coalesce-japan-2024/static/css/main.b1364cb3.css",
-    "main.js": "/coalesce-japan-2024/static/js/main.dc2efccf.js",
+    "main.js": "/coalesce-japan-2024/static/js/main.211a7a2b.js",
     "static/js/453.65244dc0.chunk.js": "/coalesce-japan-2024/static/js/453.65244dc0.chunk.js",
     "static/media/highlight_card_10_img.png": "/coalesce-japan-2024/static/media/highlight_card_10_img.ce11d51ce6217be110e7.png",
     "static/media/highlight_card_04_img.png": "/coalesce-japan-2024/static/media/highlight_card_04_img.85e9629e42f26f23c290.png",
@@ -19,11 +19,11 @@
     "static/media/revicons.woff": "/coalesce-japan-2024/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/coalesce-japan-2024/index.html",
     "main.b1364cb3.css.map": "/coalesce-japan-2024/static/css/main.b1364cb3.css.map",
-    "main.dc2efccf.js.map": "/coalesce-japan-2024/static/js/main.dc2efccf.js.map",
+    "main.211a7a2b.js.map": "/coalesce-japan-2024/static/js/main.211a7a2b.js.map",
     "453.65244dc0.chunk.js.map": "/coalesce-japan-2024/static/js/453.65244dc0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1364cb3.css",
-    "static/js/main.dc2efccf.js"
+    "static/js/main.211a7a2b.js"
   ]
 }

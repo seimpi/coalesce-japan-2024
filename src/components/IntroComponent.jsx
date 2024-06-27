@@ -12,8 +12,8 @@ export const IntroComponent = () => {
                             <img src={logos} alt="logos" />
                         </div>
                         <div className="text-center py-14">
-                            <h1 className="font-protestrevolution font-medium text-6xl text-theme02">Coalesce In Harmony</h1>
-                            <h2 className="font-palanquin font-medium text-xl text-theme02 mt-1">Discover the magic of musical exchange in Japan!</h2>
+                            <h1 className="font-protestrevolution font-medium text-8xl text-theme02">Coalesce In Harmony</h1>
+                            <h2 className="font-palanquin font-medium text-2xl text-theme02 mt-1">Discover the magic of musical exchange in Japan!</h2>
                         </div>
 
                         <div className="border border-theme02 m-8">

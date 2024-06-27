@@ -1,5 +1,5 @@
 import TrackVisibility from 'react-on-screen';
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import TimelineObserver from "react-timeline-animation";
 
 import highlight_01_pic from "../assets/highlight_card_01_img.png";
@@ -15,6 +15,9 @@ import {
 
 import Tilt from 'react-parallax-tilt';
 
+const itineraryLink = "https://www.seimpi.edu.sg/_files/ugd/3bd640_4c4d67a3407a46ea92594282a4000660.pdf";
+const pricingLink = "https://www.seimpi.edu.sg/_files/ugd/3bd640_54c9fe5c37094896894c926d1fb5714d.pdf";
+
 const Timeline = ({ setObserver, callback }) => {
     const [seenMessage1, setSeenMessage1] = useState("text-slate-300");
     const [seenMessage2, setSeenMessage2] = useState("text-slate-300");
@@ -22,12 +25,12 @@ const Timeline = ({ setObserver, callback }) => {
     const [seenMessage4, setSeenMessage4] = useState("text-slate-300");
     const [seenMessage5, setSeenMessage5] = useState("text-slate-300");
     const [seenMessage6, setSeenMessage6] = useState("text-slate-300");
-    const [message1Width, setmessage1Width] = useState("w-[0%] opacity-0 h-[0px]");
-    const [message2Width, setmessage2Width] = useState("w-[0%] opacity-0 h-[0px]");
-    const [message3Width, setmessage3Width] = useState("w-[0%] opacity-0 h-[0px]");
-    const [message4Width, setmessage4Width] = useState("w-[0%] opacity-0 h-[0px]");
-    const [message5Width, setmessage5Width] = useState("w-[0%] opacity-0 h-[0px]");
-    const [message6Width, setmessage6Width] = useState("w-[0%] opacity-0 h-[0px]");
+    const [message1Width, setmessage1Width] = useState("w-[100%] opacity-100");
+    const [message2Width, setmessage2Width] = useState("w-[100%] opacity-100");
+    const [message3Width, setmessage3Width] = useState("w-[100%] opacity-100");
+    const [message4Width, setmessage4Width] = useState("w-[100%] opacity-100");
+    const [message5Width, setmessage5Width] = useState("w-[100%] opacity-100");
+    const [message6Width, setmessage6Width] = useState("w-[100%] opacity-100");
 
     const timeline1 = useRef(null);
     const timeline2 = useRef(null);
@@ -103,7 +106,7 @@ const Timeline = ({ setObserver, callback }) => {
         <div className="flex flex-col items-center">
             <div className="flex flex-col items-center">
                 <Tilt>
-                    <div className="border border-theme02 mx-8 mb-8">
+                    <div className="border bg-theme04 border-theme02 mx-8 mb-8">
                         <div className="m-4 p-8 bg-theme02 inverted-corners">
                             <div className="flex flex-col text-center font-palanquindark text-theme07 text-lg">
                                 15th to 20th November 2024
@@ -225,7 +228,7 @@ export const ItineraryComponent = () => {
                 {({ isVisible }) =>
                     <div className={"py-8 mx-6 lg:mx-[10rem] border-2 border-x-theme02 border-y-transparent flex flex-col transition-all duration-1000 "}>
                         <div className="text-center py-14">
-                            <h1 className="font-palanquindark font-medium text-6xl text-theme02">Tour Itinerary</h1>
+                            <h1 className="font-protestrevolution font-medium text-6xl text-theme02">Tour Itinerary</h1>
                         </div>
                         <div className="mb-12">
                             <TimelineObserver
@@ -238,6 +241,32 @@ export const ItineraryComponent = () => {
                                     />
                                 )}
                             />
+                        </div>
+                        <div className="flex flex-row justify-center">
+                            <Tilt>
+                                <a href={itineraryLink}>
+                                    <div className="border border-theme02 mx-8 mb-8">
+                                        <div className="m-4 p-8 bg-theme02 inverted-corners">
+                                            <div className="flex flex-col text-center font-palanquindark text-theme07 text-lg">
+                                                Download Itinerary
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </Tilt>
+                            <Tilt>
+                                <a href={pricingLink}>
+                                    <div className="border border-theme02 mx-8 mb-8" >
+                                        <div className="m-4 p-8 bg-theme02 inverted-corners">
+                                            <div className="flex flex-col text-center font-palanquindark text-theme07 text-lg">
+                                                Pricing
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </Tilt>
                         </div>
                     </div>}
             </TrackVisibility>

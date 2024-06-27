@@ -9,6 +9,7 @@ module.exports = {
         bebasneue: ["Bebas Neue", "sans-serif"],
         palanquin: ["Palanquin", "sans-serif"],
         palanquindark: ["Palanquin Dark", "sans-serif"],
+        protestrevolution: ["Protest Revolution", "sans-serif"]
       },
       colors: {
         'theme01': '#EA827D',

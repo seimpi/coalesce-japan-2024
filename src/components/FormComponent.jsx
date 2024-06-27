@@ -118,7 +118,7 @@ export const FormComponent = ({ innerRef }) => {
                                 <motion.div
                                     className="absolute inset-0 z-[0]"
                                     style={{
-                                        backgroundImage: `url("/header-bg-sky-02.png")`,
+                                        backgroundImage: `url("/coalesce-japan-2024/header-bg-sky-02.png")`,
                                         backgroundPosition: "top",
                                         backgroundSize: "cover",
                                         y: backgroundY
@@ -127,7 +127,7 @@ export const FormComponent = ({ innerRef }) => {
                                 <div
                                     className="absolute inset-x-0 top-0 -bottom-36 z-[15]"
                                     style={{
-                                        backgroundImage: `url("/header-bg-city.png")`,
+                                        backgroundImage: `url("/coalesce-japan-2024/header-bg-city.png")`,
                                         backgroundPosition: "bottom",
                                         backgroundSize: "cover",
                                         y: cityY

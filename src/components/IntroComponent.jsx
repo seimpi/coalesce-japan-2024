@@ -24,17 +24,17 @@ export const IntroComponent = () => {
                                     <div className="my-4 mx-2 font-palanquin font-normal text-xl text-theme07">
                                         <p>
                                             Are you ready to embark on an unforgettable musical adventure? Join us for
-                                            Seimpi Education’s extraordinary educational tour to Japan, Coalesce!
+                                            Seimpi Education's extraordinary educational tour to Japan, Coalesce!
                                         </p>
                                         <p>
                                             This exclusive trip is meticulously crafted to inspire, educate, and immerse
                                             you and your child in the rich cultural tapestry of Japan.
                                         </p>
                                         <p>
-                                            Whether you’re a
+                                            Whether you're a
                                             parent who wants the best for your young musician or a music lover
                                             eager for a unique experience, this tour promises a harmonious blend
-                                            of learning and excitement
+                                            of learning and excitement!
                                         </p>
                                     </div>
                                 </div>

@@ -8,5 +8,5 @@ i18n.use(initReactI18next).init({
     en: { ...enJSON },
     zh: { ...zhJSON },
  }, 
- lng: "zh",  
+ lng: "en",  
 });

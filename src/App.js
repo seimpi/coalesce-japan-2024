@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <ProgressBarComponent />
-      <div ref={ref} className="w-full h-screen absolute inset-0 flex justify-center items-end">
+      <div ref={ref} className="w-full h-screen absolute inset-0 flex flex-col md:flex-row self-end justify-end md:justify-center items-center md:items-end">
         <motion.button className="z-30 mb-4" style={{ y: buttonY }} onClick={() => formRef.current?.scrollIntoView({
           behavior: "smooth"
         })} whileHover={{ scale: 1.3 }}>

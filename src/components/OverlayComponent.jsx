@@ -15,7 +15,7 @@ export const OverlayComponent = () => {
             <motion.div
                 className="absolute inset-x-0 -top-8 bottom-0 z-[-5]"
                 style={{
-                    backgroundImage: `url(/header-bg-flowers.png)`,
+                    backgroundImage: `/header-bg-flowers.png`,
                     backgroundPosition: "top",
                     backgroundSize: "cover",
                     y: flowersY

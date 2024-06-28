@@ -124,7 +124,7 @@ const Timeline = ({ setObserver, callback }) => {
                     <div className="flex flex-col md:flex-row">
                         <img src={highlight_07_pic} alt="highlight_card_image" className="ms-4 h-auto w-auto max-h-[150px] max-w-[150px] my-8 border-4 border-theme02 rounded-[50%]" />
                         <div className="m-4 p-8 bg-theme02 inverted-corners font-palanquin font-normal text-lg text-theme07 text-start">
-                            <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode01Bold01")}</b>{t("itineraryNode01Text01")}</span><br />
+                            <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode01Bold01")}</b>{t("itineraryNode01Text01")}</span> <br />
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode01Bold02")}</b>{t("itineraryNode01Text02")}</span><br />
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode01Bold03")}</b>{t("itineraryNode01Text03")}</span>
                         </div>
@@ -140,7 +140,7 @@ const Timeline = ({ setObserver, callback }) => {
                     <div className="flex flex-col md:flex-row">
                         <img src={highlight_01_pic} alt="highlight_card_image" className="ms-4 h-auto w-auto max-h-[150px] max-w-[150px] my-8 border-4 border-theme02 rounded-[50%]" />
                         <div className="m-4 p-8 bg-theme02 inverted-corners font-palanquin font-normal text-lg text-theme07 text-start">
-                            <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode02Bold01")}</b>{t("itineraryNode02Text01")}</span><br />
+                            <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode02Bold01")}</b>{t("itineraryNode02Text01")} <a className="underline underline-offset-1" href="https://www.musashino-music.ac.jp/graduate/teacher/guest/piano/kousaka">Profile</a></span><br />
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode02Bold02")}</b>{t("itineraryNode02Text02")}</span><br />
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode02Bold03")}</b>{t("itineraryNode02Text03")}</span><br />
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode02Bold04")}</b>{t("itineraryNode02Text04")}</span>

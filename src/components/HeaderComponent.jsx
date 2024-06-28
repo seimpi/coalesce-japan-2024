@@ -35,16 +35,16 @@ export const HeaderComponent = () => {
             <div>
                 <div ref={ref} className={"transition-all duration-1000 w-full h-screen overflow-hidden relative grid place-items-center"}>
                     <div className="flex flex-row gap-x-8">
-                        <motion.img 
+                        <motion.img
                             className="hidden lg:block"
-                            src={taiko_01} 
+                            src={taiko_01}
                             alt=""
-                            whileInView="reveal" 
+                            whileInView="reveal"
                             initial={{ opacity: 0, scale: 0 }}
-                            animate={{ opacity: 1, scale: 1 }}/>
+                            animate={{ opacity: 1, scale: 0.8 }} />
                         <div className="flex flex-col justify-center">
                             <motion.h1
-                                className="font-protestrevolution text-6xl md:text-9xl text-white text-center z-[-15]"
+                                className="font-protestrevolution text-7xl md:text-9xl text-white text-center z-[-15]"
                                 style={{ y: textY }}
                                 initial="hidden"
                                 whileInView="reveal"
@@ -54,6 +54,22 @@ export const HeaderComponent = () => {
                                 {headingSplitWithRegex.map(char => (
                                     <motion.span key={char} transition={{ duration: 0.5 }} variants={charVariants}>{char}</motion.span>
                                 ))}
+                                <div className="flex flex-row lg:hidden gap-x-4 justify-center">
+                                    <motion.img
+                                        className="w-[75px] h-auto"
+                                        src={taiko_01}
+                                        alt=""
+                                        whileInView="reveal"
+                                        initial={{ opacity: 0, scale: 0 }}
+                                        animate={{ opacity: 1, scale: 1 }} />
+                                    <motion.img
+                                        className="w-[75px] h-auto"
+                                        src={taiko_02}
+                                        alt=""
+                                        whileInView="reveal"
+                                        initial={{ opacity: 0, scale: 0 }}
+                                        animate={{ opacity: 1, scale: 1 }} />
+                                </div>
                                 <motion.p
                                     className="text-2xl text-white text-center z-[-15]"
                                     style={{ y: subtextY }}
@@ -68,13 +84,13 @@ export const HeaderComponent = () => {
                                 </motion.p>
                             </motion.h1>
                         </div>
-                        <motion.img 
+                        <motion.img
                             className="hidden lg:block"
-                            src={taiko_02} 
+                            src={taiko_02}
                             alt=""
-                            whileInView="reveal" 
+                            whileInView="reveal"
                             initial={{ opacity: 0, scale: 0 }}
-                            animate={{ opacity: 1, scale: 1 }}/>
+                            animate={{ opacity: 1, scale: 0.8 }} />
                     </div>
 
                     <motion.div

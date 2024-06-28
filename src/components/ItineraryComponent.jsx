@@ -193,6 +193,7 @@ const Timeline = ({ setObserver, callback }) => {
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold01")}</b>{t("itineraryNode05Text01")}</span><br />
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold02")}</b>{t("itineraryNode05Text02")}</span><br />
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold03")}</b>{t("itineraryNode05Text03")}</span><br />
+                            <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold03b")}</b>{t("itineraryNode05Text03b")}</span><br />
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold04")}</b>{t("itineraryNode05Text04")}</span><br />
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold05")}</b>{t("itineraryNode05Text05")}</span><br />
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold06")}</b>{t("itineraryNode05Text06")}</span>

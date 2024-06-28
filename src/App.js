@@ -48,7 +48,7 @@ function App() {
             </div>
           </div>
         </motion.button>
-        <motion.button className="z-30 mb-4" style={{ y: buttonY }} onClick={handleChangeLanguage} whileHover={{ scale: 1.3 }}>
+        <motion.button className="z-30 mb-4 hidden" style={{ y: buttonY }} onClick={handleChangeLanguage} whileHover={{ scale: 1.3 }}>
           <div className="border border-theme02 m-4">
             <div className="m-2 p-4 bg-theme02 inverted-corners">
               <div className="flex flex-col text-center font-protestrevolution px-16">

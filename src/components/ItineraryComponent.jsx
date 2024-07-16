@@ -111,7 +111,7 @@ const Timeline = ({ setObserver, callback }) => {
                         </div>
                     </div>
                 </Tilt>
-                <div className={"items-center h-[323px] w-[352px] md:h-[500px] md:w-[544.89px] "}>
+                <div className={"items-center h-[275px] w-[375px] md:h-[323px] md:w-[482px] "}>
                     <MapRivPlay />
                 </div>
             </div>

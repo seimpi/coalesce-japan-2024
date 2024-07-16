@@ -206,7 +206,7 @@ const Timeline = ({ setObserver, callback }) => {
                 </div>
                 <div className={"whitespace-pre-line text-center bg-theme04 border border-theme02 transition-all duration-1000 " + (message6Width)}>
                     <div className="flex flex-col md:flex-row">
-                        <img src={highlight_01_pic} alt="highlight_card_image" className="ms-4 h-auto w-auto max-h-[150px] max-w-[150px] my-8 border-4 border-theme02 rounded-[50%]" />
+                        <img src={highlight_07_pic} alt="highlight_card_image" className="ms-4 h-auto w-auto max-h-[150px] max-w-[150px] my-8 border-4 border-theme02 rounded-[50%]" />
                         <div className="m-4 p-8 bg-theme02 inverted-corners font-palanquin font-normal text-lg text-theme07 text-start content-center">
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode06Bold01")}</b>{t("itineraryNode06Text01")}</span>
                         </div>

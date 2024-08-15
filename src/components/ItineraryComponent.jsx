@@ -174,7 +174,8 @@ const Timeline = ({ setObserver, callback }) => {
                         <img src={highlight_09_pic} alt="highlight_card_image" className="ms-4 h-auto w-auto max-h-[150px] max-w-[150px] my-8 border-4 border-theme02 rounded-[50%]" />
                         <div className="m-4 p-8 bg-theme02 inverted-corners font-palanquin font-normal text-lg text-theme07 text-start">
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode04Bold01")}</b>{t("itineraryNode04Text01")}</span><br />
-                            <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode04Bold04")}</b>{t("itineraryNode04Text04")}</span>
+                            <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode04Bold02")}</b>{t("itineraryNode04Text02")}</span><br />
+                            <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode04Bold03")}</b>{t("itineraryNode04Text03")}</span>
                         </div>
                     </div>
                 </div>
@@ -191,10 +192,8 @@ const Timeline = ({ setObserver, callback }) => {
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold01")}</b>{t("itineraryNode05Text01")}</span><br />
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold02")}</b>{t("itineraryNode05Text02")}</span><br />
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold03")}</b>{t("itineraryNode05Text03")}</span><br />
-                            <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold03b")}</b>{t("itineraryNode05Text03b")}</span><br />
                             <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold04")}</b>{t("itineraryNode05Text04")}</span><br />
-                            <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold05")}</b>{t("itineraryNode05Text05")}</span><br />
-                            <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold06")}</b>{t("itineraryNode05Text06")}</span>
+                            <span className="font-palanquin"><b className="font-palaquindark">{t("itineraryNode05Bold05")}</b>{t("itineraryNode05Text05")}</span>
                         </div>
                     </div>
                 </div>
